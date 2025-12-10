@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <title>Política de Privacidad - Stylos Dance Academy</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            padding: 20px;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            background: #ffffff;
+            border-radius: 20px;
+            box-shadow: 0 10px 40px rgba(0, 0, 0, 0.2);
+            overflow: hidden;
+        }
+
+        .header {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 40px 30px;
+            text-align: center;
+        }
+
+        .header h1 {
+            font-size: 2.5em;
+            margin-bottom: 10px;
+            font-weight: 700;
+        }
+
+        .header p {
+            font-size: 1.1em;
+            opacity: 0.95;
+        }
+
+        .content {
+            padding: 40px 30px;
+        }
+
+        .content h2 {
+            color: #667eea;
+            font-size: 1.8em;
+            margin-top: 30px;
+            margin-bottom: 15px;
+            font-weight: 600;
+            border-bottom: 2px solid #f0f0f0;
+            padding-bottom: 10px;
+        }
+
+        .content h3 {
+            color: #764ba2;
+            font-size: 1.3em;
+            margin-top: 25px;
+            margin-bottom: 12px;
+            font-weight: 600;
+        }
+
+        .content p {
+            margin-bottom: 15px;
+            text-align: justify;
+            color: #555;
+            font-size: 1em;
+        }
+
+        .content ul {
+            margin-left: 25px;
+            margin-bottom: 15px;
+        }
+
+        .content li {
+            margin-bottom: 10px;
+            color: #555;
+            line-height: 1.8;
+        }
+
+        .content strong {
+            color: #667eea;
+            font-weight: 600;
+        }
+
+        .highlight-box {
+            background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+            border-left: 4px solid #667eea;
+            padding: 20px;
+            margin: 25px 0;
+            border-radius: 8px;
+        }
+
+        .contact-info {
+            background: #f8f9fa;
+            padding: 20px;
+            border-radius: 10px;
+            margin-top: 30px;
+            border: 2px solid #e9ecef;
+        }
+
+        .contact-info h3 {
+            color: #667eea;
+            margin-top: 0;
+        }
+
+        .contact-info p {
+            margin-bottom: 8px;
+        }
+
+        .contact-info a {
+            color: #667eea;
+            text-decoration: none;
+            font-weight: 600;
+        }
+
+        .contact-info a:hover {
+            text-decoration: underline;
+        }
+
+        .last-updated {
+            text-align: center;
+            color: #999;
+            font-size: 0.9em;
+            margin-top: 30px;
+            padding-top: 20px;
+            border-top: 1px solid #e9ecef;
+        }
+
+        @media (max-width: 768px) {
+            body {
+                padding: 10px;
+            }
+
+            .header {
+                padding: 30px 20px;
+            }
+
+            .header h1 {
+                font-size: 2em;
+            }
+
+            .content {
+                padding: 30px 20px;
+            }
+
+            .content h2 {
+                font-size: 1.5em;
+            }
+
+            .content h3 {
+                font-size: 1.2em;
+            }
+        }
+
+        /* Dark mode support */
+        @media (prefers-color-scheme: dark) {
+            body {
+                background: linear-gradient(135deg, #1a1a2e 0%, #16213e 100%);
+            }
+
+            .container {
+                background: #1e1e1e;
+            }
+
+            .content {
+                color: #e0e0e0;
+            }
+
+            .content p,
+            .content li {
+                color: #d0d0d0;
+            }
+
+            .content h2 {
+                color: #8b9aff;
+                border-bottom-color: #333;
+            }
+
+            .content h3 {
+                color: #a78bfa;
+            }
+
+            .highlight-box {
+                background: #2a2a2a;
+                border-left-color: #8b9aff;
+            }
+
+            .contact-info {
+                background: #2a2a2a;
+                border-color: #333;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>Stylos Dance Academy</h1>
+            <p>Política de Privacidad</p>
+        </div>
+
+        <div class="content">
+            <div class="highlight-box">
+                <p><strong>Última actualización:</strong> <span id="lastUpdated"></span></p>
+                <p>En Stylos Dance Academy, nos comprometemos a proteger su privacidad y garantizar la seguridad de sus datos personales. Esta Política de Privacidad explica cómo recopilamos, utilizamos, almacenamos y protegemos su información cuando utiliza nuestra aplicación móvil.</p>
+            </div>
+
+            <h2>1. Información que Recopilamos</h2>
+            <p>Recopilamos los siguientes tipos de información cuando utiliza nuestra aplicación:</p>
+
+            <h3>1.1. Información Personal</h3>
+            <ul>
+                <li><strong>Datos de contacto:</strong> Nombre, dirección de correo electrónico, número de teléfono</li>
+                <li><strong>Información de registro:</strong> Datos proporcionados al solicitar información sobre clases, eventos o servicios</li>
+                <li><strong>Preferencias:</strong> Intereses en disciplinas específicas, tipos de eventos, etc.</li>
+            </ul>
+
+            <h3>1.2. Información de Uso</h3>
+            <ul>
+                <li>Datos sobre cómo interactúa con la aplicación (páginas visitadas, funciones utilizadas)</li>
+                <li>Información del dispositivo (tipo de dispositivo, sistema operativo, versión de la aplicación)</li>
+                <li>Datos de localización (si se proporciona permiso explícito)</li>
+            </ul>
+
+            <h2>2. Cómo Utilizamos su Información</h2>
+            <p>Utilizamos la información recopilada para los siguientes propósitos:</p>
+            <ul>
+                <li><strong>Procesamiento de solicitudes:</strong> Gestionar sus solicitudes de información, reservas de clases y eventos</li>
+                <li><strong>Comunicación:</strong> Responder a sus consultas y mantenerle informado sobre nuestras actividades</li>
+                <li><strong>Mejora del servicio:</strong> Analizar el uso de la aplicación para mejorar nuestros servicios</li>
+                <li><strong>Personalización:</strong> Proporcionar contenido y recomendaciones personalizadas</li>
+                <li><strong>Cumplimiento legal:</strong> Cumplir con obligaciones legales y regulatorias</li>
+            </ul>
+
+            <h2>3. Compartir Información</h2>
+            <p>No vendemos, alquilamos ni compartimos su información personal con terceros, excepto en las siguientes circunstancias:</p>
+            <ul>
+                <li><strong>Proveedores de servicios:</strong> Compartimos información con proveedores que nos ayudan a operar la aplicación (hosting, análisis, etc.) bajo estrictos acuerdos de confidencialidad</li>
+                <li><strong>Requisitos legales:</strong> Cuando sea necesario para cumplir con la ley, órdenes judiciales o procesos legales</li>
+                <li><strong>Protección de derechos:</strong> Para proteger nuestros derechos, propiedad o seguridad, o la de nuestros usuarios</li>
+                <li><strong>Con su consentimiento:</strong> Cuando haya dado su consentimiento explícito para compartir información</li>
+            </ul>
+
+            <h2>4. Seguridad de los Datos</h2>
+            <p>Implementamos medidas de seguridad técnicas y organizativas apropiadas para proteger su información personal contra acceso no autorizado, alteración, divulgación o destrucción. Estas medidas incluyen:</p>
+            <ul>
+                <li>Cifrado de datos en tránsito y en reposo</li>
+                <li>Controles de acceso estrictos</li>
+                <li>Monitoreo regular de sistemas</li>
+                <li>Capacitación del personal sobre privacidad y seguridad</li>
+            </ul>
+
+            <h2>5. Sus Derechos</h2>
+            <p>De acuerdo con el Reglamento General de Protección de Datos (RGPD) y otras leyes aplicables, usted tiene los siguientes derechos:</p>
+            <ul>
+                <li><strong>Derecho de acceso:</strong> Solicitar una copia de sus datos personales</li>
+                <li><strong>Derecho de rectificación:</strong> Corregir datos inexactos o incompletos</li>
+                <li><strong>Derecho de supresión:</strong> Solicitar la eliminación de sus datos personales</li>
+                <li><strong>Derecho a la portabilidad:</strong> Recibir sus datos en un formato estructurado</li>
+                <li><strong>Derecho de oposición:</strong> Oponerse al procesamiento de sus datos</li>
+                <li><strong>Derecho a retirar el consentimiento:</strong> Retirar su consentimiento en cualquier momento</li>
+            </ul>
+            <p>Para ejercer estos derechos, puede contactarnos utilizando la información proporcionada en la sección de contacto.</p>
+
+            <h2>6. Cookies y Tecnologías Similares</h2>
+            <p>Nuestra aplicación puede utilizar cookies y tecnologías similares para mejorar su experiencia. Estas tecnologías nos ayudan a:</p>
+            <ul>
+                <li>Recordar sus preferencias</li>
+                <li>Analizar el uso de la aplicación</li>
+                <li>Proporcionar funcionalidades personalizadas</li>
+            </ul>
+            <p>Puede gestionar las preferencias de cookies a través de la configuración de su dispositivo.</p>
+
+            <h2>7. Retención de Datos</h2>
+            <p>Conservamos su información personal solo durante el tiempo necesario para cumplir con los propósitos descritos en esta política, a menos que la ley requiera o permita un período de retención más largo. Cuando eliminemos sus datos, lo haremos de forma segura.</p>
+
+            <h2>8. Transferencias Internacionales</h2>
+            <p>Sus datos pueden ser procesados y almacenados fuera del Espacio Económico Europeo (EEE). En tales casos, nos aseguramos de que existan salvaguardias adecuadas para proteger su información, como cláusulas contractuales estándar aprobadas por las autoridades de protección de datos.</p>
+
+            <h2>9. Menores de Edad</h2>
+            <p>Nuestra aplicación está dirigida a usuarios de todas las edades. Para menores de 16 años, requerimos el consentimiento de los padres o tutores legales antes de procesar sus datos personales. Si descubrimos que hemos recopilado información de un menor sin el consentimiento apropiado, tomaremos medidas para eliminar esa información.</p>
+
+            <h2>10. Cambios a esta Política</h2>
+            <p>Podemos actualizar esta Política de Privacidad ocasionalmente para reflejar cambios en nuestras prácticas o por razones legales, operativas o regulatorias. Le notificaremos sobre cambios significativos mediante:</p>
+            <ul>
+                <li>Una notificación en la aplicación</li>
+                <li>Un correo electrónico (si tenemos su dirección)</li>
+                <li>Actualización de la fecha de "Última actualización"</li>
+            </ul>
+            <p>Le recomendamos revisar esta política periódicamente para mantenerse informado sobre cómo protegemos su información.</p>
+
+            <h2>11. Base Legal para el Procesamiento</h2>
+            <p>Procesamos su información personal basándonos en las siguientes bases legales:</p>
+            <ul>
+                <li><strong>Consentimiento:</strong> Cuando ha dado su consentimiento explícito</li>
+                <li><strong>Ejecución de contrato:</strong> Para cumplir con nuestras obligaciones contractuales</li>
+                <li><strong>Interés legítimo:</strong> Para mejorar nuestros servicios y operaciones</li>
+                <li><strong>Obligación legal:</strong> Para cumplir con requisitos legales</li>
+            </ul>
+
+            <div class="contact-info">
+                <h3>12. Contacto</h3>
+                <p>Si tiene preguntas, inquietudes o solicitudes relacionadas con esta Política de Privacidad o el procesamiento de sus datos personales, puede contactarnos:</p>
+                <p><strong>Stylos Dance Academy</strong></p>
+                <p><strong>Email:</strong> <a href="mailto:info@stylosdance.com">info@stylosdance.com</a></p>
+                <p><strong>Teléfono:</strong> <a href="tel:+34123456789">+34 123 456 789</a></p>
+                <p><strong>Dirección:</strong> Valencia, España</p>
+                <p><strong>Responsable de Protección de Datos:</strong> Puede contactar a nuestro responsable de protección de datos en <a href="mailto:privacidad@stylosdance.com">privacidad@stylosdance.com</a></p>
+            </div>
+
+            <div class="last-updated">
+                <p>Esta política de privacidad cumple con el Reglamento General de Protección de Datos (RGPD) de la UE y otras leyes aplicables de protección de datos.</p>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // Establecer fecha de última actualización
+        document.getElementById('lastUpdated').textContent = new Date().toLocaleDateString('es-ES', {
+            year: 'numeric',
+            month: 'long',
+            day: 'numeric'
+        });
+    </script>
+</body>
+</html>
+
